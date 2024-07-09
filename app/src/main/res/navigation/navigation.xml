@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/pushUpFragment">
+
+    <fragment
+        android:id="@+id/pushUpFragment"
+        android:name="au.edu.jcu.pushpal.PushUpFragment"
+        android:label="fragment_push_up"
+        tools:layout="@layout/fragment_push_up" >
+        <action
+            android:id="@+id/action_pushUpFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:popUpTo="@id/pushUpFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="au.edu.jcu.pushpal.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settingsFragment_to_pushUpFragment"
+            app:destination="@id/pushUpFragment"
+            app:popUpTo="@id/pushUpFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+</navigation>

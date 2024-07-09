@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PushPal" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/beige</item>
+
+    </style>
+
+    <style name="Theme.PushPal" parent="Base.Theme.PushPal" />
+</resources>

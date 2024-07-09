@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PushPal</string>
+    <string name="zero">0</string>
+    <string name="save_progress">Save</string>
+    <string name="restart_icon_label">Reset button</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="settings_progress_bar_text">Turn on progress bar</string>
+    <string name="gear_icon_content_description">Gear icon for settings</string>
+    <string name="push_up_button_content_description">Green button to increment push ups</string>
+    <string name="push_up_prompt">Touch the button with your nose</string>
+    <string name="push_up_goal_prompt">Set push up goal</string>
+    <string name="change_theme_string">Turn on dark mode</string>
+    <string name="home_button_icon_description">Home button icon</string>
+</resources>
